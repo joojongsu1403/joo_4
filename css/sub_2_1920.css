@@ -1,0 +1,294 @@
+@media all and (min-width:1920px){
+    #wrap{
+        width: 100vw;
+        height: auto;
+    }
+    #pc_header{
+        position: fixed;
+        z-index: 4;
+    }
+    #main_title{
+        text-align: center;
+        line-height: 100px;
+        position: relative;
+    }
+    #title_text_box{
+        width: 260px;
+        height: 60px;
+        line-height: 60px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    #title_text_box>ul{
+        width: 520px;
+        height: 60px;
+    }
+    #title_text_box>ul>li{
+        width: 260px;
+        height: 60px;
+        float: left;
+        font-size: 20px;
+        color: white;
+    }
+    #main_title .arrow{
+        float: left;
+    }
+    .arrow{
+        width: 18px;
+        height: 30px;
+        line-height: 75px;
+        position: absolute;
+        top: 0;
+    }
+    #right{
+        right: 0;
+    }
+    .arrow>img{
+        width: 18px;
+        height: 30px;
+    }
+    /*-------------------------------------------------------*/
+    #main_icon{
+        width: 72px;
+        height: 65px;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 3;
+    }
+    #main_icon>img{
+        width: 72px;
+        height: 65px;
+    }
+    #hidden_menu{
+        display: none;
+        /*width: 100%;
+        height: 100%;*/
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: white; 
+        z-index: 2;
+    }
+    #hidden_menu>ul{
+        display: none;
+        position: absolute;
+        top: 200px;
+    }
+    #hidden_menu>ul>li{
+        width: auto;
+        height: 100px;
+        position: relative;
+        overflow: hidden;
+    }
+    #hidden_menu>ul>li:nth-child(1){
+        width: 141px;
+    }
+    #hidden_menu>ul>li:nth-child(2){
+        width: 222px;
+    }
+    #hidden_menu>ul>li:nth-child(3){
+        width: 454px;
+    }
+    #hidden_menu>ul>li:nth-child(4){
+        width: 234px;
+    }
+    #hidden_menu>ul>li:nth-child(5){
+        width: 114px;
+    }
+    #hidden_menu>ul>li>a{
+        font-family: Ubuntu;
+        font-size: 36px; 
+        color: #787878;
+        margin-left: 10px;
+        position: relative;
+    }
+    .hidden_line{
+        display: none;
+        width: 100%;
+        height: 15px;
+        background-image: url(../img/main_img/hidden_line.png);
+        background-repeat: round;
+        position: absolute;
+        top: 50px;
+    }
+    .hidden_line>p{
+        font-size: 14px;
+        font-weight: 500;
+        color: white;
+        font-family: NanumGothic;
+        position: absolute;
+        right: 5px;
+    }
+    #hidden_menu>p{
+        display: none;
+        float: right;
+        margin-right: 10px;
+        margin-top: 64px;
+        font-family: Ubuntu;
+    }
+    /*------------------------------------------------hidden*/
+    
+    #sec_1{
+        width: 100%;
+        height: 2200px;
+        float: left;
+    }
+    #game_wrap{
+        width: 1920px;
+        height: 2100px;
+        margin: 0 auto;
+        margin-top: 100px;
+        overflow: hidden;
+    }
+    .game_box{
+        width: 100%;
+        height: 700px;
+        position: relative;
+    }
+    .game_box>img{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .game_in_box{
+        width: 100%;
+        height: 700px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+    .first_shadow{
+        width: 840px;
+        height: 700px;
+        position: absolute;
+        background-color: rgba(15,15,15,0.6);
+        z-index: 1;
+        left: -840px;
+        transition-duration: 0.3s;
+    }
+    .game_in_box:hover>.first_shadow{
+        left: 0;
+    }
+    .shadow_text_box{
+        width: 750px;
+        height: auto;
+        margin-left: 90px;
+        margin-top: 150px;   
+    }
+    .shadow_text_box>h3{
+        font-family: NanumGothic;
+        font-size: 86px;
+        color: white;
+        margin-bottom: 10px;
+    }
+    .shadow_text_box>p{
+        font-family: NanumGothic;
+        color: white;
+        margin-bottom: 55px;
+    }
+    .shadow_text_box>p:nth-child(2){
+        font-size: 36px;
+        font-weight: 500;  
+    }
+    .shadow_text_box>p:nth-child(3){
+        font-size: 24px;
+    }
+    .button_box{
+        width: 420px;
+        height: 50px;
+        cursor: pointer;
+    }
+    .button_box>li{
+        width: 200px;
+        height: 50px;
+        float: left;
+        line-height: 46px;
+        text-align: center;
+        border: 2px solid #c8c8c8;
+        box-sizing: border-box;
+        font-family: NanumGothic;
+        font-size: 20px;
+        display: block;
+        color: white;
+        font-weight: 400;
+    }
+    .button_box>li:last-child{
+        margin-left: 20px;
+    }
+    .button_box>li:last-child>a{
+        color: white;
+    }
+    .button_box>li:hover{
+        background-color: #aace36;
+    }
+    
+    
+    /*----------------------------------------------------sec_1*/
+    #footer{
+        width: 100%;
+        height: 220px;
+        float: left;
+    }
+    #footer_out_box{
+        width: 1920px;
+        height: 220px;
+        background-color: #3c3c3c;
+        margin: 0 auto;
+    }
+    #footer_box{
+        width: 1740px;
+        height: 160px;
+        margin: 0 auto;
+        position: relative;
+        top: 30px;
+    }
+    #footer_box>img{
+        width: 252px;
+        height: 45px;
+    }
+    #footer_box>h6{
+        font-size: 18px;
+        color: white;
+        font-weight: 400;
+        margin-top: 8px;
+    }
+    #footer_box>h6>a{
+        color: white;
+    }
+    #footer_box>h6>a:last-child{
+        font-weight: 700;
+    }
+    #footer_box>h6,#footer_box>p{
+        margin-left: 58px;
+    }
+    #footer_box>p{
+        font-family: NanumGothic;
+        color: white;
+    }
+    #footer_box>p:nth-child(3){
+        font-size: 14px;
+        margin-top: 18px;
+    }
+    #footer_box>p:nth-child(4){
+        margin-top: 14px;
+        font-size: 12px;
+    }
+    #footer_icon_box{
+        width: 236px;
+        height: 51px;
+        float: right;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #footer_icon_box>img{
+        margin-right: 5px;
+    }
+    #footer_icon_box>img:last-child{
+        margin-right: 0;
+    }
+}/*end*/
